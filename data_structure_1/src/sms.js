@@ -1,3 +1,21 @@
-/**
- * Created by yaya on 14-5-9.
- */
+function notify_sms_received(sms_json){
+    var message_keyword = sms_json.messages[0].message.substr(0,2);
+    var check_json = {
+        BM: function () {
+            SignUp.activity_sign_up_sms(sms_json)
+        },
+        JJ: function () {
+        }
+    }
+    if (check_json[message_keyword]) {
+        check_json[message_keyword]()
+    }
+
+
+
+}
+
+
+
+
+

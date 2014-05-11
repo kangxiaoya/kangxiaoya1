@@ -2,6 +2,8 @@ function Activity(activity_name){
     this.name=activity_name;
     this.sign_ups=[];
     this.bids=[];
+    this.sign_ups.name='';
+    this.sign_ups.phone='';
 }
 
 Activity.prototype.create=function(){
