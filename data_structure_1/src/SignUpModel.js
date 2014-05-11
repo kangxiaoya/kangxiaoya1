@@ -15,7 +15,7 @@ SignUp.activity_sign_up_sms = function (sms_json) {
             sign_ups.push(sign_up);
         }
         activities = _.map(activities, function (activity) {
-            activity['name'] ==  current_activity ? activity['sign_ups'] = sign_ups : '';
+            activity['name'] == current_activity ? activity['sign_ups'] = sign_ups : '';
             return activity;
         });
         localStorage.setItem('activities', JSON.stringify(activities))

@@ -5,6 +5,7 @@ function notify_sms_received(sms_json){
             SignUp.activity_sign_up_sms(sms_json)
         },
         JJ: function () {
+            Bidding.bid_sign_up_sms(sms_json)
         }
     }
     if (check_json[message_keyword]) {
