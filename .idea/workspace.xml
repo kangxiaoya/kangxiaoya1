@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7181ff8-1005-4ad9-908b-4790df314525" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data_structure_1/src/ActivityModel.js" afterPath="$PROJECT_DIR$/data_structure_1/src/ActivityModel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data_structure_1/src/Bidding.js" afterPath="$PROJECT_DIR$/data_structure_1/src/Bidding.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data_structure_1/src/SignUpModel.js" afterPath="$PROJECT_DIR$/data_structure_1/src/SignUpModel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data_structure_1/src/sms.js" afterPath="$PROJECT_DIR$/data_structure_1/src/sms.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="github.iws" />
@@ -28,19 +25,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SignUpModel.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="SignUpModel.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data_structure_1/src/SignUpModel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+            <state line="12" column="27" selection-start="524" selection-end="524" vertical-scroll-proportion="0.27906978" vertical-offset="0" max-vertical-offset="645">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sign_up_spec.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="sign_up_spec.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data_structure_1/spec/sign_up_spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="235" selection-end="235" vertical-scroll-proportion="0.20930232" vertical-offset="0" max-vertical-offset="990">
+            <state line="34" column="33" selection-start="1123" selection-end="1123" vertical-scroll-proportion="0.0" vertical-offset="146" max-vertical-offset="990">
               <folding />
             </state>
           </provider>
@@ -49,7 +46,7 @@
       <file leaf-file-name="fixtures.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data_structure_1/spec/fixture/fixtures.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="25" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+            <state line="18" column="6" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
               <folding />
             </state>
           </provider>
@@ -64,19 +61,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fixtures.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fixture/fixtures.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="13" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="sms.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data_structure_1/src/sms.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+            <state line="4" column="33" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
               <folding />
             </state>
           </provider>
@@ -540,13 +528,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_structure_1/spec/fixture/fixtures.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="25" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fixture/fixtures.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="13" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
@@ -556,7 +537,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data_structure_1/src/sms.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+        <state line="4" column="33" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
           <folding />
         </state>
       </provider>
@@ -568,16 +549,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_structure_1/src/SignUpModel.js">
+    <entry file="file://$PROJECT_DIR$/data_structure_1/spec/fixture/fixtures.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+        <state line="18" column="6" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data_structure_1/spec/sign_up_spec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="235" selection-end="235" vertical-scroll-proportion="0.20930232" vertical-offset="0" max-vertical-offset="990">
+        <state line="34" column="33" selection-start="1123" selection-end="1123" vertical-scroll-proportion="0.0" vertical-offset="146" max-vertical-offset="990">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structure_1/src/SignUpModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="27" selection-start="524" selection-end="524" vertical-scroll-proportion="0.27906978" vertical-offset="0" max-vertical-offset="645">
           <folding />
         </state>
       </provider>
