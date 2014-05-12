@@ -22,3 +22,9 @@ SignUp.activity_sign_up_sms = function (sms_json) {
 
     }
 };
+
+SignUp.render_sign_ups = function(activity_name){
+    var activities = Activity.get_activities();
+    var current_activity = Activity.get_the_activity(activity_name);
+    return current_activity.sign_ups;
+}

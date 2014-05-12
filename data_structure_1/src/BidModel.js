@@ -11,12 +11,9 @@ Bid.prototype.create_new_bid = function (activity_name) {
     var bid = this;
     activities = _.map(activities, function (the_activity) {
         the_activity['name'] == current_activity ? the_activity['bids'].push(bid) : '';
-
-        console.log(this.name)
         return the_activity;
     });
     localStorage.setItem("activities", JSON.stringify(activities));
-    console.log(JSON.stringify(activities))
 };
 
 transform_bids_to_view_model = function (activity_name) {
