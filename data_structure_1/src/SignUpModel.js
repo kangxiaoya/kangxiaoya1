@@ -3,8 +3,8 @@ function SignUp() {
 
 SignUp.activity_sign_up_sms = function (sms_json) {
     if (localStorage.is_signing_up == "true") {
-        var activities = JSON.parse(localStorage.activities);
-        var current_activity = localStorage.current_activity;
+        var activities = Activity.get_activities();
+        var current_activity = Activity.get_current_activity();
         var sign_ups = [];
         var sign_up = {};
         sign_up['name'] = sms_json.messages[0].message.substr(2).replace(/^\s+/g, '');
@@ -19,5 +19,6 @@ SignUp.activity_sign_up_sms = function (sms_json) {
             return activity;
         });
         localStorage.setItem('activities', JSON.stringify(activities))
+
     }
 };

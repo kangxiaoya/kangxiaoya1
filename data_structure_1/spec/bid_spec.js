@@ -13,6 +13,7 @@ describe("Bid", function () {
         localStorage.activities = JSON.stringify(activities);
         localStorage.current_activity = "first activity";
         localStorage.is_bidding = "";
+
     });
 
     afterEach(function () {
@@ -20,6 +21,7 @@ describe("Bid", function () {
     })
 
     it("should create new bid", function () {
+        var bid = new Bid("first activity")
         bid.create_new_bid("first activity");
 
         var activities = JSON.parse(localStorage.activities);
