@@ -7,14 +7,11 @@ function notify_sms_received(sms_json){
         JJ: function () {
             Bidding.bid_sign_up_sms(sms_json);
         }
-    }
+    };
     if (check_sms[message_keyword]) {
         check_sms[message_keyword]()
-    }
-
-
-
-}
+    };
+};
 
 
 

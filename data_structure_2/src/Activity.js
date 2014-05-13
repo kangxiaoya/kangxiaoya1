@@ -5,7 +5,6 @@ function Activity(activity_name) {
     this.biddings = {};
 };
 
-
 Activity.get_activities = function () {
     return JSON.parse(localStorage.getItem('activities'))
 };
@@ -18,6 +17,14 @@ Activity.get_activity_id_generator = function () {
     return parseInt(localStorage.activity_id_generator);
 };
 
+Activity.get_current_activity= function(){
+    return localStorage.current_activity;
+};
+
+Activity.get_the_activity = function (activity_name) {
+    var activities = Activity.get_activities();
+    return activities[activity_name];
+};
 
 Activity.prototype.create = function (activity_name) {
     var activities = Activity.get_activities();
