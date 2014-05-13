@@ -19,7 +19,6 @@ SignUp.activity_sign_up_sms = function (sms_json) {
             return activity;
         });
         localStorage.setItem('activities', JSON.stringify(activities))
-
     }
 };
 

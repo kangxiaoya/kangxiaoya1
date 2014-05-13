@@ -7,7 +7,7 @@ SignUp.active_sms = function (sms_json) {
         var sign_up = {};
         sign_up['name'] = sms_json.messages[0].message.substr(2).replace(/^\s+/g, '');
         sign_up['phone'] = sms_json.messages[0].phone;
-        if (_.find(Activity.get_the_activity(Activity.get_current_activity()).sign_ups, function (the_sign_up) {
+        if (_.find(sign_ups, function (the_sign_up) {
             return the_sign_up['phone'] == sign_up['phone']
         }) == undefined) {
             sign_ups.push(sign_up);

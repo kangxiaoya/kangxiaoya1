@@ -6,7 +6,7 @@ function Activity(activity_name) {
 };
 
 Activity.get_activities = function () {
-    return JSON.parse(localStorage.getItem('activities'))
+    return JSON.parse(localStorage.activities)
 };
 
 Activity.get_activity_ids = function () {
