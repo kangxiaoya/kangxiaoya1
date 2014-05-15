@@ -21,9 +21,9 @@ Activity.get_current_activity= function(){
     return localStorage.current_activity;
 };
 
-Activity.get_the_activity = function (activity_name) {
+Activity.get_the_activity = function (activity_id) {
     var activities = Activity.get_activities();
-    return activities[activity_name];
+    return activities[activity_id];
 };
 
 Activity.prototype.create = function (activity_name) {

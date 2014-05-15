@@ -5,6 +5,7 @@ function notify_sms_received(sms_json){
             SignUp.active_sms(sms_json);
         },
         JJ: function () {
+            Bidding.sign_up_sms(sms_json);
         }
     };
     if (check_sms[message_keyword]) {
