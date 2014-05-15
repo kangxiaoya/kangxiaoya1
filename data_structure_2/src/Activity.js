@@ -26,6 +26,15 @@ Activity.get_the_activity = function (activity_id) {
     return activities[activity_id];
 };
 
+Activity.get_current_bid = function(){
+    return localStorage.current_bid;
+}
+
+Activity.get_currently_active_biddings=function(){
+    var bid = Activity.get_current_bid();
+    return Activity.get_the_activity(Activity.get_current_activity()).biddings[bid];
+}
+
 Activity.prototype.create = function (activity_name) {
     var activities = Activity.get_activities();
     var counter = Activity.get_activity_id_generator();
