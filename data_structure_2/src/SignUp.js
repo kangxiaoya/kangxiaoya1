@@ -19,3 +19,11 @@ SignUp.active_sms = function (sms_json) {
         localStorage.setItem('activities', JSON.stringify(activities))
     }
 };
+
+
+SignUp.render_sign_ups = function(activity_name){
+    var activity = _.find(Activity.get_activities(),function(activity){
+        return activity.name == activity_name;
+    })
+    return activity.sign_ups;
+}

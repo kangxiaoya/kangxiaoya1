@@ -60,3 +60,60 @@ Bidding.save = function (sms_json) {
     localStorage.setItem('activities', JSON.stringify(activities));
 }
 
+function transform_bids_to_view_model(activity_id) {
+    return  Activity.get_the_activity(activity_id).bids;
+}
+
+
+//function transform_biddings_to_view_model(activity_name, bid_name) {
+//    var bid = _.find(transform_bids_to_view_model(activity_name), function (bid) {
+//        return bid.name == bid_name
+//    });
+//    var biddings = bid.biddings
+//    var sortBy_biddings = _.sortBy(biddings, function (the_bidding) {
+//        return parseInt(the_bidding.price);
+//    });
+//    var groupBy_biddings = _.groupBy(sortBy_biddings, function (people) {
+//        return parseInt(people.price);
+//    });
+//    var map_biddings = _.map(groupBy_biddings, function (value, key) {
+//        var price_statistics = {};
+//        price_statistics['price'] = key;
+//        price_statistics['counter'] = value.length;
+//        if (value.length == 1) {
+//            price_statistics['name'] = value[0].name;
+//            price_statistics['phone'] = value[0].phone;
+//        }
+//        return price_statistics;
+//    });
+//    var price_statistics_result = _.filter(map_biddings, function (the_result) {
+//        return the_result.counter == 1;
+//    });
+//    return price_statistics_result;
+//}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
