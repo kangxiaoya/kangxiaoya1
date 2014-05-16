@@ -24,3 +24,6 @@ Activity.get_current_activity = function(){
 Activity.get_activity_id_generator = function(){
     return parseInt(localStorage.activity_id_generator);
 }
+Activity.get_sign_ups = function(){
+    return  JSON.parse(localStorage.sign_ups)
+}
