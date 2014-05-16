@@ -65,33 +65,36 @@ function transform_bids_to_view_model(activity_id) {
 }
 
 
-//function transform_biddings_to_view_model(activity_name, bid_name) {
-//    var bid = _.find(transform_bids_to_view_model(activity_name), function (bid) {
-//        return bid.name == bid_name
-//    });
-//    var biddings = bid.biddings
-//    var sortBy_biddings = _.sortBy(biddings, function (the_bidding) {
-//        return parseInt(the_bidding.price);
-//    });
-//    var groupBy_biddings = _.groupBy(sortBy_biddings, function (people) {
-//        return parseInt(people.price);
-//    });
-//    var map_biddings = _.map(groupBy_biddings, function (value, key) {
-//        var price_statistics = {};
-//        price_statistics['price'] = key;
-//        price_statistics['counter'] = value.length;
-//        if (value.length == 1) {
-//            price_statistics['name'] = value[0].name;
-//            price_statistics['phone'] = value[0].phone;
-//        }
-//        return price_statistics;
-//    });
-//    var price_statistics_result = _.filter(map_biddings, function (the_result) {
-//        return the_result.counter == 1;
-//    });
-//    return price_statistics_result;
-//}
+function transform_biddings_to_view_model(activity_id,bid_name){
+    var activities = Activity.get_activities();
+    var current_activity = Activity.get_the_activity(activity_id);
+    var biddings = current_activity.biddings;
+    console.log(biddings[bid_name],'biddings')
+    var bid_price = _.chain(biddings[bid_name])
+        .groupBy(function (bidding) {
+            return parseInt(bidding.price);
+        })
+        .map(function(value,key){
+            return{"price":key,"count":value.length}
+        })
+        .find(function(bidding){
+            return bidding.count == 1;
+        })
+        .value();
+    console.log(bid_price,'bid_price')
+    var winner =_.find(biddings[bid_name],function(bidding){
+        return bidding.price == bid_price.price
+    })
+    console.log(winner,'winner')
+    var sign_up = _.find(Activity.get_the_activity(activity_id).sign_ups,function(sign_up){
+        return sign_up.phone == winner.phone;
+    })
+    var winner_infos = [];
+    var winner_info = {"name":sign_up.name,"phone":winner.phone,"price":winner.price}
+    winner_infos.push(winner_info);
+    return winner_infos;
 
+}
 
 
 
