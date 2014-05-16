@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7181ff8-1005-4ad9-908b-4790df314525" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data_structure_3/src/Activity.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data_structure_3/src/Bid.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data_structure_3/src/Bidding.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data_structure_3/src/SMS.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data_structure_3/src/SignUp.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data_structure_3/src/Activity.js" afterPath="$PROJECT_DIR$/data_structure_3/src/Activity.js" />
     </list>
     <ignored path="github.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,7 +24,44 @@
     <favorites_list name="github" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="fixtures.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data_structure_3/spec/fixture/fixtures.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="39" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Activity.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data_structure_3/src/Activity.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="0" selection-start="471" selection-end="471" vertical-scroll-proportion="-6.09375" vertical-offset="0" max-vertical-offset="465">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data_structure_3.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data_structure_3.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="5" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1725">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_spec.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data_structure_3/spec/activity_spec.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="45" selection-start="1114" selection-end="1114" vertical-scroll-proportion="0.76744187" vertical-offset="15" max-vertical-offset="660">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -58,15 +90,15 @@
         <option value="$PROJECT_DIR$/data_structure_2/src/SMS.js" />
         <option value="$PROJECT_DIR$/data_structure_1/src/BidModel.js" />
         <option value="$PROJECT_DIR$/data_structure_2/spec/bid_spec.js" />
-        <option value="$PROJECT_DIR$/data_structure_2/src/Activity.js" />
         <option value="$PROJECT_DIR$/data_structure_2/src/SignUp.js" />
         <option value="$PROJECT_DIR$/data_structure_2/spec/bids_and_bidding_render_spec.js" />
         <option value="$PROJECT_DIR$/data_structure_2/src/Bidding.js" />
-        <option value="$PROJECT_DIR$/data_structure_3/src/Activity.js" />
         <option value="$PROJECT_DIR$/data_structure_3/src/SignUp.js" />
         <option value="$PROJECT_DIR$/data_structure_3/src/Bid.js" />
         <option value="$PROJECT_DIR$/data_structure_3/src/Bidding.js" />
         <option value="$PROJECT_DIR$/data_structure_3/src/SMS.js" />
+        <option value="$PROJECT_DIR$/data_structure_2/src/Activity.js" />
+        <option value="$PROJECT_DIR$/data_structure_3/src/Activity.js" />
       </list>
     </option>
   </component>
@@ -145,6 +177,56 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="data_structure_3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="party_bid_core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="party_bid_core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data_structure_3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="party_bid_core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="party_bid_core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data_structure_2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="party_bid_core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="party_bid_core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data_structure_2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -237,15 +319,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="0" width="1372" height="745" extended-state="6" />
-    <editor active="false" />
+    <frame x="-3" y="0" width="1372" height="745" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24597365" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24597365" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24743778" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -279,16 +361,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data_structure_1/spec/sign_up_spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="742" selection-end="742" vertical-scroll-proportion="0.0" vertical-offset="81" max-vertical-offset="990" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_structure_1/src/sms.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="6" selection-start="40" selection-end="92" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="495" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data_structure_1/src/ActivityModel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="0" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="270">
@@ -410,11 +482,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_structure_1/spec/fixture/fixtures.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="26" selection-start="589" selection-end="589" vertical-scroll-proportion="0.4883721" vertical-offset="0" max-vertical-offset="645" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data_structure_2/spec/sign_up_spec.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="24" selection-start="753" selection-end="753" vertical-scroll-proportion="0.35658914" vertical-offset="145" max-vertical-offset="960" />
@@ -510,27 +577,6 @@
         <state line="20" column="44" selection-start="576" selection-end="576" vertical-scroll-proportion="0.4651163" vertical-offset="0" max-vertical-offset="915" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_structure_1/src/ActivityModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="9" selection-start="540" selection-end="540" vertical-scroll-proportion="0.53488374" vertical-offset="0" max-vertical-offset="645">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_structure_3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="6" selection-start="1473" selection-end="1473" vertical-scroll-proportion="2.0232558" vertical-offset="0" max-vertical-offset="1725">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_structure_2/src/Activity.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="52" selection-start="582" selection-end="582" vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="855">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data_structure_2/src/Bidding.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="94" column="22" selection-start="3158" selection-end="3158" vertical-scroll-proportion="0.0" vertical-offset="913" max-vertical-offset="1920">
@@ -541,13 +587,6 @@
     <entry file="file://$PROJECT_DIR$/data_structure_2/spec/bids_and_bidding_render_spec.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="78" column="51" selection-start="2271" selection-end="2316" vertical-scroll-proportion="0.6511628" vertical-offset="750" max-vertical-offset="1395">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_structure_3/src/Activity.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
           <folding />
         </state>
       </provider>
@@ -583,6 +622,55 @@
     <entry file="file://$PROJECT_DIR$/data_structure_3/src/SignUp.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structure_1/spec/fixture/fixtures.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="1" selection-start="619" selection-end="619" vertical-scroll-proportion="0.5116279" vertical-offset="0" max-vertical-offset="645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structure_1/src/ActivityModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="26" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structure_2/src/Activity.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="137" selection-end="137" vertical-scroll-proportion="0.123980425" vertical-offset="14" max-vertical-offset="855">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structure_3/spec/fixture/fixtures.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="39" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structure_3/src/Activity.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="471" selection-end="471" vertical-scroll-proportion="-6.09375" vertical-offset="0" max-vertical-offset="465">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structure_3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="5" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1725">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structure_3/spec/activity_spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="45" selection-start="1114" selection-end="1114" vertical-scroll-proportion="0.76744187" vertical-offset="15" max-vertical-offset="660">
           <folding />
         </state>
       </provider>
