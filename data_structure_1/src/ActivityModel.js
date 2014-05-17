@@ -1,9 +1,9 @@
-function Activity(activity_name){
-    this.name=activity_name;
-    this.sign_ups=[];
-    this.bids=[];
-    this.sign_ups.name='';
-    this.sign_ups.phone='';
+function Activity(activity_name) {
+    this.name = activity_name;
+    this.sign_ups = [];
+    this.bids = [];
+    this.sign_ups.name = '';
+    this.sign_ups.phone = '';
 };
 
 Activity.prototype.create = function () {
@@ -12,24 +12,30 @@ Activity.prototype.create = function () {
     localStorage.setItem("activities", JSON.stringify(activities))
 };
 
-Activity.prototype.active=function(){
-    localStorage.current_activity= this.name;
+Activity.prototype.active = function () {
+    localStorage.current_activity = this.name;
 };
 
 
-Activity.get_activities = function(){
+Activity.get_activities = function () {
     return JSON.parse(localStorage.activities);
 };
 
-Activity.get_current_activity = function(){
+Activity.get_current_activity = function () {
     return localStorage.current_activity;
 };
 
-Activity.get_the_activity = function(activity_name){
-    var activities = Activity.get_activities();
-    return _.find(activities, function(the_activity){
+Activity.get_the_activity = function (activity_name) {
+    return _.find(Activity.get_activities(), function (the_activity) {
         return the_activity['name'] == activity_name;
     });
-
 };
+
+Activity.get_this_activity = function () {
+    return _.find(Activity.get_activities(), function (the_activity) {
+        return the_activity['name'] == localStorage.current_activity;
+    });
+}
+
+
 
