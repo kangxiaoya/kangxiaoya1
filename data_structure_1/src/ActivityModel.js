@@ -31,10 +31,11 @@ Activity.get_the_activity = function (activity_name) {
     });
 };
 
-Activity.get_this_activity = function () {
-    return _.find(Activity.get_activities(), function (the_activity) {
+Activity.get_this_activity = function (activities) {
+    var current_activity= _.find(activities, function (the_activity) {
         return the_activity['name'] == localStorage.current_activity;
     });
+    return current_activity;
 }
 
 
