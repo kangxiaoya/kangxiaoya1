@@ -17,3 +17,10 @@ SignUp.active_sms = function (sms_json) {
     }
 };
 
+
+SignUp.render_sign_ups = function (activity_id) {
+    return _.filter(Activity.get_sign_ups(), function (sign_up) {
+        return sign_up.activity_id == activity_id;
+    })
+};
+

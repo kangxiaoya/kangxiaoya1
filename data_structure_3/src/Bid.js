@@ -1,5 +1,6 @@
 function Bid(activity_id) {
-    this.name = '竞价' + Bid.get_current_activity_bids(activity_id).length + 1;
+    this.activity_id = activity_id;
+    this.name = "竞价" + Bid.get_current_activity_bids(activity_id).length + 1;
     this.biddings = [];
 }
 
@@ -25,8 +26,22 @@ Bid.get_current_biddings = function () {
     return bid.biddings;
 };
 
+
+Bid.get_the_biddings = function (activity_id,bid_name) {
+    var bid = _.find(Bid.get_bids(), function (the_bid) {
+        return the_bid.name == bid_name && the_bid.activity_id == activity_id
+    })
+    return bid.biddings;
+};
+
 Bid.get_current_activity_bids = function (activity_id) {
     return _.filter(Bid.get_bids(), function (bid) {
         return bid.activity_id == activity_id;
     });
 };
+
+Bid.render_bids = function (activity_id) {
+    return _.filter(Bid.get_bids(), function (bid) {
+        return bid.activity_id == activity_id;
+    })
+}

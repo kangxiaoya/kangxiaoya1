@@ -6,7 +6,7 @@ function Bid(activity_name) {
 };
 
 Bid.prototype.create_new_bid = function (activity_name) {
-    var activities = Activity.get_activities(activity_name).bids;
+    var activities = Activity.get_activities()
     var current_activity = Activity.get_current_activity();
     var bid = this;
     activities = _.map(activities, function (the_activity) {

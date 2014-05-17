@@ -41,7 +41,30 @@ Bidding.save = function (sms_json) {
 };
 
 
-
+Bidding.render_biddings = function (activity_id, bid_name) {
+    var biddings = Bid.get_the_biddings(activity_id,bid_name)
+    var bid_price = _.chain(biddings)
+        .groupBy(function (bidding) {
+            return (bidding.price);
+        })
+        .map(function (value, key) {
+            return{"price": key, "count": value.length}
+        })
+        .find(function (bidding) {
+            return bidding.count == 1;
+        })
+        .value();
+    var winner =_.find(biddings,function(bidding){
+        return bidding.price == bid_price.price
+    })
+    var sign_up = _.find(Activity.get_current_activity_sign_ups(), function (sign_up) {
+        return sign_up.phone ==winner .phone;
+    })
+    var winner_infos = [];
+    var winner_info = {"name": sign_up.name, "phone": winner.phone, "price": winner.price}
+    winner_infos.push(winner_info);
+    return winner_infos;
+}
 
 
 
