@@ -69,7 +69,6 @@ function transform_biddings_to_view_model(activity_id,bid_name){
     var activities = Activity.get_activities();
     var current_activity = Activity.get_the_activity(activity_id);
     var biddings = current_activity.biddings;
-    console.log(biddings[bid_name],'biddings')
     var bid_price = _.chain(biddings[bid_name])
         .groupBy(function (bidding) {
             return parseInt(bidding.price);
@@ -81,11 +80,9 @@ function transform_biddings_to_view_model(activity_id,bid_name){
             return bidding.count == 1;
         })
         .value();
-    console.log(bid_price,'bid_price')
     var winner =_.find(biddings[bid_name],function(bidding){
         return bidding.price == bid_price.price
     })
-    console.log(winner,'winner')
     var sign_up = _.find(Activity.get_the_activity(activity_id).sign_ups,function(sign_up){
         return sign_up.phone == winner.phone;
     })

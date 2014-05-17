@@ -27,3 +27,7 @@ Activity.get_activity_id_generator = function(){
 Activity.get_sign_ups = function(){
     return  JSON.parse(localStorage.sign_ups)
 }
+
+Activity.get_sign_up_activity_id = function(){
+
+}
